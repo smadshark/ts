@@ -1,4 +1,4 @@
-const {Users} = require("/models/users.model")
+const {Users} = require("../models/users.model")
 
 function getUserList(req, res) {
     res.send(Users);
